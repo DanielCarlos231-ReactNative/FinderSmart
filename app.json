@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "FII",
+    "slug": "FII",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3565204663695646~8931573506"
+      }
+    },
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3565204663695646~8931573506"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.thiagos3600.FII"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
